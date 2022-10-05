@@ -3,8 +3,24 @@
     top: 0;
     left: 0;
     right: 0;
+
 }
 
 .description {
     margin-top: 100px;
 }
+.contain-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+ @media (max-width: 575.98px) {
+    .contain-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .description {
+        margin-top: 150px;
+    }
+ }
